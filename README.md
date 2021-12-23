@@ -1,2 +1,19 @@
-# cv-website-vuejs
-A website template for creating online CVs and showcase work portfolios
+# luka
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
