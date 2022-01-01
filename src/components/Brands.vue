@@ -1,21 +1,29 @@
 <template>
-  <aside class="desktopOnly">
+  <aside :class="desktopOnly ? 'desktopOnly' : null">
     <span class="brand"
-      ><img src="../assets/images/editorial/company.png" loading="lazy" alt="company logo" 
+      ><img
+        src="../assets/images/editorial/company.png"
+        loading="lazy"
+        alt="company logo"
     /></span>
     <span class="brand"
       ><img
         src="../assets/images/editorial/company.png"
-        loading="lazy" alt="company logo"
+        loading="lazy"
+        alt="company logo"
       />
     </span>
     <span class="brand"
-      ><img src="../assets/images/editorial/company.png" loading="lazy" alt="company logo"
+      ><img
+        src="../assets/images/editorial/company.png"
+        loading="lazy"
+        alt="company logo"
     /></span>
     <span class="brand"
       ><img
         src="../assets/images/editorial/company.png"
-        loading="lazy" alt="company logo"
+        loading="lazy"
+        alt="company logo"
     /></span>
   </aside>
 </template>
@@ -25,6 +33,11 @@ export default {
   name: "Brands",
   props: {
     msg: String,
+    desktopOnly: {
+      type: Boolean,
+      default: false,
+      required: false,
+    },
   },
 };
 </script>
@@ -64,6 +77,12 @@ img[alt~="silverstone"] {
 }
 
 @media (max-width: 650px) {
+  .desktopOnly {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 700px) {
   .desktopOnly {
     display: none;
   }

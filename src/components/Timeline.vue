@@ -40,7 +40,7 @@ export default {
   display: flex;
   flex-direction: column;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 5rem auto;
 }
 .dashed {
   display: flex;
@@ -57,7 +57,7 @@ export default {
 .presentTitle {
   text-align: center;
   color: var(--color-main);
-  padding: 0 0 1rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .flex {

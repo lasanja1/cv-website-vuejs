@@ -1,4 +1,4 @@
-# luka
+# portfolio-template
 
 ## Project setup
 ```

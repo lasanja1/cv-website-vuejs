@@ -2,7 +2,7 @@
   <header>
     <Avatar />
     <Navigation :links="links" />
-    <Brands />
+    <Brands :desktopOnly="true"/>
   </header>
 </template>
  
