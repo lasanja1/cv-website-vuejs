@@ -1,4 +1,6 @@
 # portfolio-template
+A website template created for someone who needs to have a CV and portfolio. 
+Tech stack: Vue CLI, Vue Router.
 
 ## Project setup
 ```
